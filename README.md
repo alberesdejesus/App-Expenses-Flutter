@@ -34,3 +34,13 @@ Exemplo:
     <td valign="top"><img src="./images/despesas_formpreenchido.jpeg" height="600"></td>
   </tr>
 </table>
+
+
+## Guia
+```
+git clone https://github.com/alberesdejesus/App-Expenses-Flutter.git
+cd App-Expenses-Flutter
+flutter packages get
+flutter run
+```
+Coloque no seu emulador ou Smartphone e aproveite!! 
