@@ -1,16 +1,36 @@
-# expenses
+# Expenses
 
-A new Flutter project.
+Um aplicativo simples para organizar suas despesas, feito em Dart usando o Flutter. 
 
-## Getting Started
+## Descrição
 
-This project is a starting point for a Flutter application.
+### Tela inicial
+Ao abrir o aplicativo será essa a tela (primeira imagem) que irá ver, essa é a tela inicial do aplicativo onde mostra suas despesas, identificada por nome, valor e data </br>
+Na parte superior há um grafico mostrando seus gastos da semana e em qual dia esta concentrado o gasto </br>
+O botão flutuante amarelo embaixo e o botão localizado no canto superior direito, servem para adicionar um novo registro de despesa</br>
+<table>
+  <tr>
+    <td>Tela Inicial vazia</td>
+    <td>Tela Inicial com algumas despesas</td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="./images/despesas_telainicial_vazia.jpeg" height="600"></td>
+    <td valign="top"><img src="./images/despesas_telainicial_preenchida.jpeg" height="600"></td>
+  </tr>
+</table>
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Adicionar um registro de despesa
+Após clicar no botão para adicionar um registro, como mencionado acima, irá aparecer um formulario para preencher
+Exemplo:
+<table>
+  <tr>
+    <td>Formulario para preencher</td>
+    <td>Calendario dentro do formulario para</br> selecionar a data da despesa</td>
+    <td>Exemplo de formulario preenchido</td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="./images/despesas_form.jpeg" height="600"></td>
+    <td valign="top"><img src="./images/despesas_formcalendar.jpeg" height="600"></td>
+    <td valign="top"><img src="./images/despesas_formpreenchido.jpeg" height="600"></td>
+  </tr>
+</table>
